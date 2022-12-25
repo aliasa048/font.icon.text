@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+.cv {
+  width: 69%;
+}
+.cv .img-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cv .img-area img {
+  background-color: #b2b2b2;
+  width: 200px;
+  border-radius: 50%;
+}
+.cv h1 {
+  font-size: 70px;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0px;
+}
+.cv h4 {
+  font-size: 40px;
+  margin: -4px;
+}
+.cv .work-education {
+  display: flex;
+  margin-top: 70px;
+}
+.cv .work-education .work-area {
+  padding: 0 10px;
+  border-left: 2px dashed black;
+  width: 60%;
+}
+.cv .work-education .work-area .component h2 {
+  color: blue;
+}
+.cv .work-education .work-area .component .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.cv .work-education .education {
+  width: 40%;
+}/*# sourceMappingURL=style.css.map */
